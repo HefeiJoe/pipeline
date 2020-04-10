@@ -14,7 +14,7 @@ db:
 jenkins:
   url: "http://jenkins-dev.devops.wise-paas.com"
   username: "codetest"
-  password: "123456"
+  password: "P@ssw0rd"
 
 tekton:
   url: ""

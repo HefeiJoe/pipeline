@@ -7,7 +7,7 @@ import (
 
 func main() {
 	config := config.InitConfig()
-	r := router.InitRouter(config)
+	r := router.InitRouter()
 	r.Run(":" + config.Server.Port)
 
 }
